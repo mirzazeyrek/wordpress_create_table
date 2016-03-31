@@ -38,7 +38,7 @@
 	 * @version 1.0.1
 	 * @author Ugur Mirza Zeyrek
 	 */
-	static function create_table($table_name, $table_columns, $table_keys = null, $db_prefix = true, $charset_collate = null) {
+	function create_table($table_name, $table_columns, $table_keys = null, $db_prefix = true, $charset_collate = null) {
 		global $wpdb;
 
 		if($charset_collate == null)
